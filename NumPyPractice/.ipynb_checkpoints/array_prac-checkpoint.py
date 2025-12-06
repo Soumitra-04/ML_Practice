@@ -18,7 +18,7 @@ print(a)
 x = np.linspace(0, 2 * np.pi, 2)        #useful to evaluate function at lots of points
 print("x = \n", x)
 f = np.sin(x)               #calculate the sine of each element and make an array of those values  
-print(f) 
+# print(f) 
 b = np.arange(20).reshape(5,4) #create an array b that ranges from 0 to 20 , and make it's shape of 5 rows and 4 columns
 print(b) 
 print(b ** 2) #calculate the power of each element and display the array
